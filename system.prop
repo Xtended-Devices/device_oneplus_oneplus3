@@ -239,5 +239,9 @@ persist.radio.calls.on.ims=1
 # Enable GL composition backpressure.
 debug.sf.enable_gl_backpressure=1
 
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.use_fifo_ui
+
 #The End
 
