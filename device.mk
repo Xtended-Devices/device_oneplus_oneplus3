@@ -116,6 +116,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
+# ARCore
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/android.hardware.camera.ar.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.ar.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
