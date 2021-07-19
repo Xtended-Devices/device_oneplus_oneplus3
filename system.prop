@@ -248,5 +248,15 @@ debug.sf.enable_gl_backpressure=1
 PRODUCT_PROPERTY_OVERRIDES += \
 sys.use_fifo_ui
 
+# Surface Flinger Tunning
+ro.surface_flinger.running_without_sync_framework=true
+
+# DHA Tunning
+ro.config.dha_tunnable=1
+
+# Smoothens UI
+persist.service.lgospd.enable=0
+persist.service.pcsync.enable=0
+
 #The End
 
